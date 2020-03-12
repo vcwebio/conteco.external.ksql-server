@@ -1,11 +1,11 @@
 #!/usr/bin/env bash
 
-export CONTECO_LABEL="external.ksql-server - ContEco"
-export CONTECO_DESCRIPTION="Confluent ksqlDB server image with ContEco external prerequisites installed."
+export CONTECO_LABEL="external.ksql_server - ContEco"
+export CONTECO_DESCRIPTION="Confluent ksql server image with ContEco external prerequisites installed."
 
 export CONTECO_TYPE="external"
-export CONTECO_NAME="ksql-server"
+export CONTECO_NAME="ksql_server"
 export CONTECO_TAG="5.4.0"
 
-export CONTECO_BASE="confluentinc/cp-ksql-server:5.4.0"
+export CONTECO_BASE="confluentinc/cp-ksql_server:5.4.0"
 export CONTECO_BUILD="external-mapped"

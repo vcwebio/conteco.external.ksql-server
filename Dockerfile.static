@@ -1,5 +1,5 @@
 ##### BEGIN external-mapped/Dockerfile/image-header #####
-FROM confluentinc/cp-ksql-server:5.4.0
+FROM confluentinc/cp-ksql_server:5.4.0
 ##### END external-mapped/Dockerfile/image-header #####
 
 ##### BEGIN image/Dockerfile/build-instructions #####
@@ -17,11 +17,11 @@ LABEL io.vcweb.schema-version="1.0" \
       io.vcweb.realm="vcwebio" \
       io.vcweb.ecosystem="conteco" \
       io.vcweb.type="external" \
-      io.vcweb.name="ksql-server" \
+      io.vcweb.name="ksql_server" \
       io.vcweb.tag="5.4.0" \
-      io.vcweb.base="confluentinc/cp-ksql-server:5.4.0" \
+      io.vcweb.base="confluentinc/cp-ksql_server:5.4.0" \
       io.vcweb.build="external-mapped" \
-      io.vcweb.label="external.ksql-server - ContEco" \
-      io.vcweb.description="Confluent ksqlDB server image with ContEco external prerequisites installed." \
+      io.vcweb.label="external.ksql_server - ContEco" \
+      io.vcweb.description="Confluent ksql server image with ContEco external prerequisites installed." \
       io.vcweb.repository="/conteco/repo" 
 ##### END external-mapped/Dockerfile/labels-footer #####
