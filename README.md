@@ -1,6 +1,6 @@
 # `external.ksqlb-server` - ContEco
 
-Confluent ksqlDB-server image with ContEco external prerequisites installed.
+Confluent ksqldb_server image with ContEco external prerequisites installed.
 See `conteco.docs.overview` for more information on the ContEco ecosystem.
 
 ## Installed External Prerequisites
