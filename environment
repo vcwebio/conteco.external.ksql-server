@@ -7,5 +7,5 @@ export CONTECO_TYPE="external"
 export CONTECO_NAME="ksql_server"
 export CONTECO_TAG="5.4.0"
 
-export CONTECO_BASE="confluentinc/cp-ksql_server:5.4.0"
+export CONTECO_BASE="confluentinc/cp-ksql-server:5.4.0"
 export CONTECO_BUILD="external-mapped"
